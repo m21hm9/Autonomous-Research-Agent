@@ -146,6 +146,36 @@ Try these research queries:
 - "What is the current state of quantum computing?"
 - "Recent breakthroughs in climate change solutions"
 
+## Example Usage
+
+Here's a complete example of using the research agent:
+
+```python
+from agent import create_research_agent, run_research
+
+# Initialize the agent
+agent = create_research_agent()
+
+# Run a research query
+result = run_research("What are the latest AI developments in 2024?")
+
+# Access the results
+print("Report:")
+print(result["report_draft"])
+
+print("\nConfidence Score:", result["confidence_score"])
+
+print("\nSources:")
+for source in result["sources"]:
+    print(f"- {source.get('title', 'N/A')}: {source.get('url', 'N/A')}")
+```
+
+The agent will:
+1. Break down your query into focused search queries
+2. Search multiple sources in parallel
+3. Synthesize findings into a comprehensive report
+4. Provide a confidence score (0-10) indicating research completeness
+
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
