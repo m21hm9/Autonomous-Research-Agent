@@ -1,0 +1,12 @@
+# DeepSeek Research Agent Dependencies
+# Generated from pyproject.toml for pip compatibility
+
+langchain>=1.2.6
+langchain-community>=0.4.1
+langchain-openai>=1.1.7
+langgraph>=1.0.6
+python-dotenv>=1.2.1
+streamlit>=1.53.0
+tavily-python>=0.7.19
+weasyprint>=67.0
+

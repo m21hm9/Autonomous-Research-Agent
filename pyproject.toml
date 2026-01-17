@@ -1,7 +1,7 @@
 [project]
 name = "my-deepseek-researcher"
 version = "0.1.0"
-description = "Add your description here"
+description = "An autonomous research agent powered by DeepSeek LLM and Tavily search, built with LangGraph"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
