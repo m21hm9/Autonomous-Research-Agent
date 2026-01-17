@@ -1,5 +1,10 @@
 # 🔍 DeepSeek Research Agent
 
+[![CI](https://github.com/m21hm9/Autonomous-Research-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/m21hm9/Autonomous-Research-Agent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP%208-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+
 An autonomous research agent powered by DeepSeek LLM and Tavily search, built with LangGraph.
 
 ## Features
@@ -141,7 +146,15 @@ Try these research queries:
 - "What is the current state of quantum computing?"
 - "Recent breakthroughs in climate change solutions"
 
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Security
+
+For security concerns, please see [SECURITY.md](SECURITY.md).
+
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
